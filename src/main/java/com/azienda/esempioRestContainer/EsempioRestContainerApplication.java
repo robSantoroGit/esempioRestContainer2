@@ -15,9 +15,7 @@ public class EsempioRestContainerApplication {
 	
 	@GetMapping("/")
 	public String ciao() {
-		return "Ciao Luca, stai vedendo un primo giro di test che a partire da un commit su Git dei sorgenti Java, si connette a Travis CI (applicazione di CI/DC) " + 
-				"crea un container dentro il quale li compila, esegue i test (sempre nel container) genera l'immagine di produzione, la pubblica su Docker Hub, " +
-				" da Docker Hub la fa scaricare in Amazon Web Services (Elastic Beanstalk) e la pubblica";
+		return "Ciao ciao";
 	}
 
 }
